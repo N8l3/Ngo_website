@@ -1,17 +1,13 @@
 
 <?php
 
-// $servername = "localhost";
-// $username = "root";
-// $password = "";
-// $db="ssf";
+ $servername = "localhost";
+ $username = "root";
+ $password = "";
+ $db="ssf";
 
 
 
-$servername = "localhost";
-$username = "snehsama_user";
-$password = "snehsmarpan@4321";
-$db="snehsama_datbase";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password,$db);
@@ -26,13 +22,6 @@ $conn = new mysqli($servername, $username, $password,$db);
 
 
 <!-- 
-
-		Server
-
-$servername = "localhost";
-$username = "snehsama_user";
-$password = "snehsmarpan@4321";
-$db="snehsama_datbase";
 
 
 
